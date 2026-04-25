@@ -1,0 +1,97 @@
+/* Ajustes básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: column; /* Alinea barra arriba y cuerpo abajo */
+    height: 100vh;
+    width: 100%;
+}
+
+/* Barra superior negra */
+.header {
+    background: #000000;
+    color: #ffffff;
+    padding: 15px 20px;
+    width: 100%;
+    border-bottom: 1px solid #444;
+}
+
+/* Contenedor del resto de la página */
+.cuerpo-inferior {
+    display: flex; /* Alinea menú a la izquierda y contenido a la derecha */
+    flex: 1; /* Ocupa todo el espacio sobrante */
+}
+
+/* Ajustes del menú (Rojo) */
+.con_Izq {
+    background: #ff0000;
+    color: #ffffff;
+    width: 20%;
+    padding: 20px;
+}
+
+.con_Izq h2 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    padding: 15px 0;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    transition: 0.3s;
+}
+
+.menu li:hover {
+    padding-left: 10px;
+    background: rgba(0,0,0,0.1);
+}
+
+/* Ajustes del contenido (Negro) */
+.con_Der {
+    background: #1a1a1a; /* Un negro ligeramente distinto para contraste */
+    color: #ffffff;
+    width: 80%;
+    padding: 0px;
+    overflow-y: auto; /* Permite scroll si el texto es largo */
+}
+
+.con_Der h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contenedor-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.img1 {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
