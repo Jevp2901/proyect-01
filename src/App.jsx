@@ -14,28 +14,30 @@ function App() {
         <aside className='con_Izq'>
           <h2>Menú</h2>
           <ul className='menu'>
-            <li>Home</li>
+            <li>Contacto</li>
             <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
-            <li>Logout</li>
           </ul>
         </aside>
         {/* contenido */}
-        <main className='con_Der'>
-          <h1>Contenido</h1>
-          <div className="contenedor-img">
-            <img 
-              className="img1" 
-              src="https://tse4.mm.bing.net/th/id/OIP.SJ-apyHOz4ufWEsvgY9fYQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" 
-              alt="React Background" 
-            />
-          </div>
+        <main className='contenido'>
+          <h1>CONTENIDO</h1>
           <p>
-            El mundo del desarrollo web evoluciona constantemente, y frameworks como React 
-            permiten crear interfaces dinámicas, modernas y eficientes. Esta plataforma ofrece 
-            a los desarrolladores la posibilidad de construir aplicaciones escalables y atractivas.
+            Primer pagina desarrollada por Johannes Emanuel Vargas Pinzon utlizando el framework de React 
+            como ejemplo de desarrollo. En esta pagina se encontrara ejemplos de componentes, estilos y estructura basica de una aplicacion desarrollada con React.
           </p>
+          <div className='div-card'>
+            <h3>Creador: Emanuel Vargas</h3><br/>
+            <img className='perfil' src='src/assets/foto1.jpg' alt="" />
+            <p>Aprendiz SENA:</p>
+            <p>Programa: ADSO</p>
+            <p>Ficha: 3160037</p>
+            <p>Trimestre: 6</p>
+            <button className='btn-perfil'>
+              <a href='https://github.com/Jevp2901' rel='noopener noreferrer'>
+                Ver Perfil
+              </a>
+            </button>
+          </div>
         </main>
       </div>
     </div>

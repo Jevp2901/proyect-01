@@ -63,7 +63,7 @@ body, html {
 }
 
 /* Ajustes del contenido (Negro) */
-.con_Der {
+.contenido {
     background: #1a1a1a; /* Un negro ligeramente distinto para contraste */
     color: #ffffff;
     width: 80%;
@@ -71,7 +71,7 @@ body, html {
     overflow-y: auto; /* Permite scroll si el texto es largo */
 }
 
-.con_Der h1 {
+.contenido h1 {
     margin-bottom: 20px;
     text-align: center;
 }
@@ -94,4 +94,43 @@ p {
     max-width: 800px;
     margin: 0 auto;
     text-align: justify;
+}
+
+/* El contenedor es el que debe tener el display grid */
+.div-card {
+    display: grid;
+    place-items: center; 
+    text-align: center;  
+    padding: 35px;
+    background-color: #333; 
+    border: 1px solid #ff0000;
+    border-radius: 10%;
+    box-shadow: 0 0 100px rgba(66, 0, 0, 0.5);
+
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/* La imagen solo necesita sus estilos de apariencia */
+.perfil {
+    height: 200px;
+    width: auto;
+    border-radius: 48%;
+    border: 5px solid #ff0000;
+    object-fit: cover; 
+}
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border:2px solid #ff0000;
+    border-radius: 20px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
 }
