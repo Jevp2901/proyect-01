@@ -17,4 +17,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 ## Segunda version de la Pagina
+Version: 2.5
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ab0cccae-31b3-4654-afef-7c064ceb87d6" />
